@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday Ishwari Mau ❤️</title>
+
+  <!-- Google Fonts: Playfair Display (headings) + Poppins (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================= -->
+  <!-- CURSOR GLOW (desktop only, follows the mouse)  -->
+  <!-- ============================================= -->
+  <div id="cursor-glow"></div>
+
+  <!-- ============================================= -->
+  <!-- PASSWORD SCREEN                                -->
+  <!-- Gate shown first. Only "Ishwari" unlocks it.   -->
+  <!-- ============================================= -->
+  <div id="password-screen">
+    <div class="password-glow"></div>
+    <div class="password-box">
+      <span class="password-heart">❤</span>
+      <p class="password-title">This surprise belongs only to Ishuu ❤️</p>
+      <form id="password-form" autocomplete="off">
+        <input
+          type="text"
+          id="password-input"
+          class="password-input"
+          placeholder="Type your name"
+          aria-label="Type your name"
+        />
+        <button type="submit" class="btn btn-primary password-submit">Unlock</button>
+      </form>
+      <p class="password-error" id="password-error">That's not quite right — try again ❤️</p>
+    </div>
+  </div>
+
+  <!-- ============================================= -->
+  <!-- GIFT BOX                                       -->
+  <!-- Appears once the password is correct.          -->
+  <!-- ============================================= -->
+  <div id="gift-screen">
+    <div class="gift-glow"></div>
+    <p class="gift-hint" id="gift-hint">Tap👊🏻 the gift, Baby❤️ </p>
+    <div class="gift-box" id="gift-box">
+      <div class="gift-light"></div>
+      <div class="gift-lid">
+        <div class="gift-bow">
+          <span class="bow-loop bow-loop-left"></span>
+          <span class="bow-loop bow-loop-right"></span>
+          <span class="bow-knot"></span>
+        </div>
+        <div class="ribbon ribbon-v"></div>
+      </div>
+      <div class="gift-base">
+        <div class="ribbon ribbon-v"></div>
+        <div class="ribbon ribbon-h"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================= -->
+  <!-- LOADING SCREEN                                 -->
+  <!-- ============================================= -->
+  <div id="loading-screen">
+    <div class="loader-heart-glow"></div>
+    <div class="loader-heart">
+      <span></span>
+      <span></span>
+    </div>
+    <p class="loader-text">A little surprise made with love</p>
+  </div>
+
+  <!-- Floating hearts layer (reused across sections via JS) -->
+  <div id="floating-hearts"></div>
+
+  <!-- ============================================= -->
+  <!-- FLOATING NAVIGATION                            -->
+  <!-- ============================================= -->
+  
+
+  <!-- ============================================= -->
+  <!-- HERO SECTION                                   -->
+  <!-- ============================================= -->
+  <header id="hero">
+    <div class="hero-bg" data-parallax="0.35" style="background-image: url('images/hero.jpg');"></div>
+    <div class="hero-glow" data-parallax="0.15"></div>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content" data-parallax="-0.1">
+      <p class="eyebrow fade-up">20 · 02 · 2026</p>
+      <h1 class="hero-title">
+        <span class="hero-title-line">
+To The Most Beautiful Girl
+</span>
+
+<span class="hero-title-line script">
+In My Entire World ❤️
+</span>
+<h2 class="birthday-name">
+Happy Birthday
+<br>
+Cutiee ❤️
+</h2>
+        <span class="hero-title-line script" data-text="Ishwari ❤️">Ishwari ❤️</span>
+      </h1>
+      <h2 class="hero-subtitle fade-up">My Love, My Best Friend, My Forever</h2>
+      <p class="hero-paragraph fade-up">Every smile, every laugh, every little moment with you has become one of the most beautiful memories of my life.
+
+Today is all about celebrating the incredible person who makes my world brighter every single day..</p>
+      <a href="#letter" class="btn btn-primary fade-up" id="begin-story-btn">Open My Birthday Gift 🎁 ❤️</a>
+    </div>
+
+    <div class="scroll-indicator">
+      <span class="mouse"><span class="wheel"></span></span>
+      <p>scroll</p>
+    </div>
+  </header>
+
+  <!-- ============================================= -->
+  <!-- LETTER SECTION                                 -->
+  <!-- ============================================= -->
+  <section id="letter" class="section">
+    <div class="petals" id="petals"></div>
+    <div class="section-inner">
+      <p class="eyebrow fade-up">for you</p>
+      <h2 class="section-title fade-up">A Letter To You</h2>
+
+      <div class="letter-paper-wrap fade-up zoom-in" id="letter-paper-wrap">
+        <div class="glass-card letter-card">
+          <div class="glass-shine"></div>
+          <p id="letter-text" class="letter-text" data-full-text="My Dear Mau, I still don't know when you became this important to me.
+Maybe, it was through small conversations, silent care, or the comfort I felt whenever you are around.
+You came into my life without  any promises,without any expectations..., but today ,your presence means everything to me.
+
+There is something strange about my days now.
+If you don't talk to me even for one day,that entire day feels incomplete.
+No matter how much I smile
+outside,inside there is always an emptiness waiting for your words.
+
+I don't need expensive moments or grand memories.
+I only want simple things like…. 
+❤️ To meet you every day,
+❤️ To see your smile, 
+❤️ To hear your voice,
+❤️ and to feel that you are still part of my life.
+
+Some dates become special not because of calendars...
+But because of feelings attached to them for me, 16th February and 20th Feb are not just dates anymore.
+They became unforgettable chapters of my life because somewhere in those moments, you became my happiness.💓
+
+Sometimes I wonder...
+Did you ever realize how important you are to me?
+Because unknowingly, you became the-peace, my heart searches for every single day.
+
+Even if life changes many things tomorrow, these feelings will remain honest forever.
+
+—Always Yours
+Om"typewriter-cursor">|</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================= -->
+  <!-- OUR JOURNEY TIMELINE                           -->
+  <!-- ============================================= -->
+  <section id="journey" class="section alt-bg">
+    <div class="section-inner">
+      <p class="eyebrow fade-up">our story</p>
+      <h2 class="section-title fade-up">Our Journey</h2>
+
+      <div class="timeline">
+        <div class="timeline-line" id="timeline-line"><span class="timeline-line-glow" id="timeline-line-glow"></span></div>
+
+        <div class="timeline-item fade-left">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <div class="timeline-photo"><img src="images/photo1.jpg" alt="The day we met" loading="lazy" /></div>
+            <span class="timeline-date" data-animate-date>14 March 2026</span>
+            <h3>The Day We Met</h3>
+            <p>Our love story began with a simple eye contact as we crossed each other in the college corridor. Soon after, I sent you a follow request on Instagram, and you accepted it within just half an hour. I couldn't resist stalking your profile and ended up liking so many of your photos that you instantly noticed and sent me the unforgettable message, "Zala ka stalk karun account? 😂" That funny little conversation became the start of endless chats. Later, I asked you to join me for the fashion show, and from then on, we spent almost every day together, slowly growing closer and becoming deeply attached. We eagerly waited for Traditional Day just to see each other and create more beautiful memories. Looking back, it's incredible that our beautiful love story began with just one glance in a college corridor.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-right">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <div class="timeline-photo"><img src="images/photo2.jpg" alt="Second memory" loading="lazy" /></div>
+            <span class="timeline-date" data-animate-date>14 Mar 2026</span>
+            <h3>Second Memory</h3>
+            <p>One of our most special memories was our first long ride together on a two-wheeler to Mhasoba Mandir in Kharawade. Every moment of that journey felt magical, but what made it even more memorable was watching you confidently ride the Jupiter on unfamiliar roads with so much courage. Reaching the temple together and seeking the blessings of Lord Shiva made the day even more meaningful. It wasn't just a ride—it was the beginning of countless beautiful memories that we'll always cherish.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-left">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <div class="timeline-photo"><img src="images/photo3.jpg" alt="Third memory" loading="lazy" /></div>
+            <span class="timeline-date" data-animate-date>03 Mar 2026</span>
+            <h3>Third Memory</h3>
+            <p>Our first event together was Holi at Sunny's World, and it became one of the most unforgettable days of our journey. You looked absolutely beautiful, especially in your sunglasses, and every moment with you felt special. Dancing together in the rain dance, feeding each other, and celebrating our very first Holi made the day perfect. And of course, the funniest memory was when you changed into a different outfit in the car before coming out, only for your T-shirt to end up wet and covered in mud—and you were almost in tears while I couldn't stop laughing! 😂❤️</p>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-right">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <div class="timeline-photo"><img src="images/photo4.jpg" alt="Fourth memory" loading="lazy" /></div>
+            <span class="timeline-date" data-animate-date>18 Mar 2026</span>
+            <h3>Fourth Memory</h3>
+            <p>One of my favorite memories from that day is our best photo together while we were dancing. We clicked nearly a hundred pictures just to get that one perfect shot, and in the end, the most beautiful one was taken naturally in the middle of the crowd. It was completely candid, filled with genuine happiness, and somehow became our favorite picture—a memory that perfectly captures the joy of being together. ❤️</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================= -->
+  <!-- MEMORY GALLERY                                 -->
+  <!-- ============================================= -->
+  <section id="gallery" class="section">
+    <div class="section-inner">
+      <p class="eyebrow fade-up">memories</p>
+      <h2 class="section-title fade-up">Memory Gallery</h2>
+
+      <div class="masonry-grid fade-up" id="gallery-grid">
+        <figure class="masonry-item" data-caption="A moment worth keeping" data-date="14 March 2026"><img src="images/photo1.jpg" alt="Memory 1" data-index="0" loading="lazy" /><figcaption class="masonry-caption"><span class="masonry-caption-text">Out Favourite Selfie 😘❤️.</span><span class="masonry-caption-date">14 Mar 2026</span></figcaption><span class="masonry-heart">❤</span></figure>
+        <figure class="masonry-item" data-caption="A moment worth keeping" data-date="14 March 2026"><img src="images/photo2.jpg" alt="Memory 2" data-index="1" loading="lazy" /><figcaption class="masonry-caption"><span class="masonry-caption-text">I Felt You More Than Surrounding !😌💕.</span><span class="masonry-caption-date">14 Mar 2026</span></figcaption><span class="masonry-heart">❤</span></figure>
+        <figure class="masonry-item" data-caption="A moment worth keeping" data-date="03 March 2026"><img src="images/photo3.jpg" alt="Memory 3" data-index="2" loading="lazy" /><figcaption class="masonry-caption"><span class="masonry-caption-text">Our First Colorfull Day !💓.</span><span class="masonry-caption-date">14 Mar 2026</span></figcaption><span class="masonry-heart">❤</span></figure>
+        <figure class="masonry-item" data-caption="A moment worth keeping" data-date="18 March 2026"><img src="images/photo4.jpg" alt="Memory 4" data-index="3" loading="lazy" /><figcaption class="masonry-caption"><span class="masonry-caption-text">Beginning of Countless Adventures with Laughters Together♾️</span><span class="masonry-caption-date">03 Mar 2026</span></figcaption><span class="masonry-heart">❤</span></figure>
+        <figure class="masonry-item" data-caption="A moment worth keeping" data-date="16 Feb 2026"><img src="images/photo5.jpg" alt="Memory 5" data-index="4" loading="lazy" /><figcaption class="masonry-caption"><span class="masonry-caption-text">Elegance Together Forever ✨</span><span class="masonry-caption-date">03 Mar 2026</span></figcaption><span class="masonry-heart">❤</span></figure>
+        <figure class="masonry-item" data-caption="A moment worth keeping" data-date="04 April 2026"><img src="images/photo6.jpg" alt="Memory 6" data-index="5" loading="lazy" /><figcaption class="masonry-caption"><span class="masonry-caption-text">Love in Eyes 👀</span><span class="masonry-caption-date">03 Mar 2026</span></figcaption><span class="masonry-heart">❤</span></figure>
+        <figure class="masonry-item" data-caption="A moment worth keeping" data-date="09 July 2026"><img src="images/photo7.jpg" alt="Memory 7" data-index="6" loading="lazy" /><figcaption class="masonry-caption"><span class="masonry-caption-text">Devotion Meets Love 🌸</span><span class="masonry-caption-date">Placeholder Date</span></figcaption><span class="masonry-heart">❤</span></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Modal (fullscreen lightbox) -->
+  <div id="gallery-modal" class="modal">
+    <div class="modal-backdrop"></div>
+    <button class="modal-close" id="modal-close" aria-label="Close">&times;</button>
+    <button class="modal-nav modal-prev" id="modal-prev" aria-label="Previous">&#10094;</button>
+    <figure class="modal-figure">
+      <img src="" alt="Memory" id="modal-image" />
+      <figcaption class="modal-caption">
+        <span id="modal-caption-text"></span>
+        <span id="modal-caption-date"></span>
+      </figcaption>
+    </figure>
+    <button class="modal-nav modal-next" id="modal-next" aria-label="Next">&#10095;</button>
+  </div>
+
+  <!-- ============================================= -->
+  <!-- REASONS I LOVE YOU                             -->
+  <!-- ============================================= -->
+  <section id="reasons" class="section alt-bg">
+    <div class="section-inner">
+      <p class="eyebrow fade-up">just a few of many</p>
+      <h2 class="section-title fade-up">Reasons I Love You</h2>
+
+      <div class="reasons-grid" id="reasons-grid">
+        <!-- Reason cards are duplicated 12x with placeholder text -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================= -->
+  <!-- RELATIONSHIP COUNTER                           -->
+  <!-- ============================================= -->
+  <section id="counter" class="section">
+    <div class="section-inner">
+      <p class="eyebrow fade-up">since 20 february 2026</p>
+      <h2 class="section-title fade-up">Every Second, I Fall Deeper</h2>
+
+      <div class="counter-grid fade-up">
+        <div class="glass-card counter-card">
+          <span class="counter-number" id="count-days">00</span>
+          <span class="counter-label">Days</span>
+        </div>
+        <div class="glass-card counter-card">
+          <span class="counter-number" id="count-hours">00</span>
+          <span class="counter-label">Hours</span>
+        </div>
+        <div class="glass-card counter-card">
+          <span class="counter-number" id="count-minutes">00</span>
+          <span class="counter-label">Minutes</span>
+        </div>
+        <div class="glass-card counter-card">
+          <span class="counter-number" id="count-seconds">00</span>
+          <span class="counter-label">Seconds</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================= -->
+  <!-- MUSIC SECTION                                  -->
+  <!-- ============================================= -->
+  <section id="music" class="section alt-bg">
+    <div class="section-inner">
+      <p class="eyebrow fade-up">Tum Ho Toh</p>
+      <h2 class="section-title fade-up">A Little Melody For You</h2>
+
+      <div class="music-player fade-up">
+        <div class="vinyl-wrap">
+          <div class="vinyl" id="vinyl">
+            <div class="vinyl-label"></div>
+          </div>
+          <div class="vinyl-arm" id="vinyl-arm"></div>
+        </div>
+
+        <div class="player-controls">
+          <h3 class="song-title">Tum Ho Toh</h3>
+          <p class="song-artist">for Ishuu, from Om</p>
+
+          <div class="wave-visualizer" id="wave-visualizer">
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
+
+          <div class="progress-row">
+            <span id="current-time">0:00</span>
+            <div class="progress-bar" id="progress-bar">
+              <div class="progress-fill" id="progress-fill"></div>
+            </div>
+            <span id="duration-time">0:00</span>
+          </div>
+
+          <button id="play-pause-btn" class="btn btn-round" aria-label="Play">
+            <svg id="play-icon" viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M8 5v14l11-7z"/></svg>
+            <svg id="pause-icon" viewBox="0 0 24 24" width="22" height="22" style="display:none;"><path fill="currentColor" d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+          </button>
+        </div>
+
+        <audio id="audio" src="music/song.mp3" preload="metadata"></audio>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================= -->
+  <!-- BIRTHDAY CAKE                                  -->
+  <!-- ============================================= -->
+  <section id="cake" class="section">
+    <div class="section-inner">
+      <p class="eyebrow fade-up">make a wish</p>
+      <h2 class="section-title fade-up">Your Birthday Cake</h2>
+
+      <div class="cake-wrap fade-up">
+        <div class="balloons" id="balloons"></div>
+
+        <div class="cake" id="cake">
+          <div class="candle-row" id="candle-row">
+            <div class="candle"><div class="smoke"></div><div class="flame"></div></div>
+            <div class="candle"><div class="smoke"></div><div class="flame"></div></div>
+            <div class="candle"><div class="smoke"></div><div class="flame"></div></div>
+          </div>
+          <div class="cake-top"></div>
+          <div class="cake-drip"></div>
+          <div class="cake-layer cake-layer-mid"></div>
+          <div class="cake-layer cake-layer-bottom"></div>
+          <div class="cake-plate"></div>
+        </div>
+
+        <button id="blow-btn" class="btn btn-primary">Blow Candles</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================= -->
+  <!-- FINAL SURPRISE                                 -->
+  <!-- ============================================= -->
+  <section id="final" class="section final-section">
+    <div class="stars" id="stars"></div>
+    <div class="section-inner">
+      <h2 class="section-title final-title fade-up">One Last Thing...</h2>
+      <button id="final-btn" class="btn btn-primary fade-up">Click Here ❤️</button>
+    </div>
+  </section>
+
+  <!-- Final Surprise Modal -->
+  <div id="final-modal" class="final-modal">
+    <canvas id="fireworks-canvas"></canvas>
+    <canvas id="confetti-canvas"></canvas>
+    <div class="final-modal-content">
+      <p class="final-stage-text" id="final-stage-text"></p>
+      <span class="typewriter-cursor final-cursor" id="final-cursor">|</span>
+
+      <div class="final-reveal" id="final-reveal">
+        <h2>The world became brighter...
+
+the day
+
+YOU
+
+were born.</h2>
+        <p class="final-forever">Happy Birthday ❤️
+
+Ishuu</p>
+        <span class="final-signature">In every lifetime...
+
+I'd still choose you.</span>
+        <button id="final-close" class="btn btn-secondary">Forever Yours
+
+Om ❤️</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================= -->
+  <!-- FOOTER                                         -->
+  <!-- ============================================= -->
+  <footer id="footer">
+    <p>Made with infinite love ❤️
+
+Only for You, Ishwari Mau ❤️
+
+— Om</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
